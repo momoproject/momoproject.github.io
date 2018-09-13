@@ -1,2 +1,0 @@
-# static
-Momo's Project 
