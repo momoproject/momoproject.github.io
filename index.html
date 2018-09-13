@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Momo Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+  <link rel="preload" href="styles/style.css" as="style">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:400,500" as="style">
+  <link rel="preload" href="scripts/index.js" as="script">
+  <link rel="preload" href="scripts/update.js" as="script">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500">
+  <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body>
+
+  <header id="header">
+    <a id="menu" class="gray" href="#open"><svg><use xlink:href="assets/icons.svg#menu"></use></svg></a>
+    <div id="title">Momo Project</div>
+    <div id="open" class="drawer">
+      <div id="nav-header"><svg><use xlink:href="assets/icons.svg#peach"></use></svg></div>
+			<div class="navigation">
+      	<svg><use xlink:href="assets/icons.svg#st"></use></svg><b>Munny</b><b class="momo">-</b>
+        <div class="chest-area">
+          <div class="b-1"><div class="b-2"></div></div>
+          <div>Quest: get JavaScript!</div>
+        </div>
+      </div>
+      <hr>
+      <div class="navigation">
+        <nav>
+          <a class="act v1" href="#"><svg><use xlink:href="assets/icons.svg#bonus"></use></svg>Giveaway</a>
+          <a class="lite"   href="#"><svg><use xlink:href="assets/icons.svg#trending"></use></svg>Favorites</a>
+          <a class="act v1" href="#"><svg><use xlink:href="assets/icons.svg#ranking"></use></svg>Leaderboard</a>
+          <a class="act v1" href="#"><svg><use xlink:href="assets/icons.svg#newsboard"></use></svg>Link</a>
+          <a class="fade"           ><svg><use xlink:href="assets/icons.svg#lo"></use></svg>???</a>
+          <a class="act v1" href="#"><svg><use xlink:href="assets/icons.svg#info"></use></svg>Help</a>
+        </nav>
+      </div>
+      <hr>
+      <div class="center">
+        <a class="bt-i act v1" href="#"><svg><use xlink:href="assets/icons.svg#fb"></use></svg></a>
+        <a class="bt-i act v1" href="#"><svg><use xlink:href="assets/icons.svg#tw"></use></svg></a>
+        <a class="bt-i act v1" href="#"><svg><use xlink:href="assets/icons.svg#gh"></use></svg></a>
+      </div>
+    </div>
+    <a id="overlay" href="#close"></a>
+
+  </header>
+
+    <div class="center">
+      
+      <div id="content">
+
+        <main>
+        	<div id="featured"></div>
+        </main>
+
+        <footer id="footer"> &#169; 2018 - <!--<span id="cu-y">????</span>,--> Momo Project. All rights reserved. </footer>
+
+      </div>
+
+    </div>
+
+  <script src="scripts/update.js"></script>
+  <script src="scripts/index.js"></script>
+  <script src="scripts/debugger.js"></script>
+
+  <script>svg4everybody();</script>
+
+</body>
+
+</html>
