@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<browserconfig>
-    <msapplication>
-        <tile>
-            <square150x150logo src="https://momoproject.github.io/assets/mstile-150x150.png"/>
-            <TileColor>#fc5296</TileColor>
-        </tile>
-    </msapplication>
-</browserconfig>
